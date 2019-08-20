@@ -10,7 +10,7 @@ enum Train_Type{
  */
 public class Train_info {
     private String name;//车次名称
-    private String description;
+    private String description;//描述说明信息
     private Train_Type ticket_type;//车票类型（火车票or动车票or高铁票）
     private String departure_time;//开时
     private String arrive_time;//到时
